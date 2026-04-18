@@ -1,0 +1,15 @@
+# Claude Code internal worktrees — never push
+.claude/
+
+# SQLite database file (created at runtime by app.py)
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
